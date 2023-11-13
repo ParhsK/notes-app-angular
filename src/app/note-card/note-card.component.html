@@ -1,9 +1,9 @@
 <div #container class="note-card-container">
   <div class="note-card-content">
-    <h1 class="note-card-title">Lorem ipsum</h1>
-    <div class="note-card-body">
-      <p>Lorem ipsum - this is the body Lorem ipsum - this is the body Lorem ipsum - this is the body Lorem ipsum - this is the body Lorem ipsum - this is the body Lorem ipsum - this is the body Lorem ipsum - this is the body Lorem ipsum - this is the body Lorem ipsum - this is the body Lorem ipsum - this is the body Lorem ipsum - this is the body Lorem ipsum - this is the body Lorem ipsum - this is the body Lorem ipsum - this is the body Lorem ipsum - this is the body Lorem ipsum - this is the body Lorem ipsum - this is the body </p>
-      <div class="fade-out-truncation"></div>
+    <h1 class="note-card-title">{{ title }}</h1>
+    <div #bodyText class="note-card-body">
+      <p #paragraphText class="paragraph-text-body">{{ body }}</p>
+      <div #truncator class="fade-out-truncation"></div>
     </div>
   </div>
   <div class="x-button"></div>
